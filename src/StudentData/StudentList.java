@@ -15,6 +15,7 @@ public class StudentList {
         PartTimeStudent pts = new PartTimeStudent();
         pts.setName("Moon");
         System.out.println(pts.getName());
+        System.out.println("DONE!!");
+        System.out.println("Now get started on ICE1");
     }
-
 }
