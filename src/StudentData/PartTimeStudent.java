@@ -6,6 +6,15 @@ package StudentData;
  * @author Ha Neul Moon
  */
 public class PartTimeStudent {
+    
+    private int studId;
+    private String name;
+    private String programName;
+    private int programLength; // mth/yr[number]
+    
+    public PartTimeStudent(){
+        
+    }
 
     /**
      * @return the studId
@@ -62,10 +71,6 @@ public class PartTimeStudent {
     public void setProgramLength(int programLength) {
         this.programLength = programLength;
     }
-    private int studId;
-    private String name;
-    private String programName;
-    private int programLength; // mth/yr[number]
 
     
 }
