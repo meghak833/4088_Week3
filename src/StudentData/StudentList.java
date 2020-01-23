@@ -12,6 +12,7 @@ public class StudentList {
      */
     public static void main(String[] args) {
         System.out.println("hello");
+        PartTimeStudent student1 = new PartTimeStudent();
     }
 
 }
