@@ -13,6 +13,8 @@ public class StudentList {
     public static void main(String[] args) {
         System.out.println("hello");
         PartTimeStudent pts = new PartTimeStudent();
+        pts.setName("Moon");
+        System.out.println(pts.getName());
     }
 
 }
